@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{18747f27-134b-423a-930f-7c058fb46140}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{b26cd0e8-b4fd-438a-825b-50e872c8ee8e}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{69956e40-1149-4ae5-9b70-77d5d4a4fb57}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(ProjectDir)\sources" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EnDisk.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="jgg.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="USBIrpHook.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EnDisk.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnDiskComm.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="jgg.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="USBIrpHook.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

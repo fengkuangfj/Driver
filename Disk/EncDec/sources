@@ -1,0 +1,7 @@
+
+TARGETNAME=disk
+TARGETTYPE=DRIVER
+
+SOURCES = USBIrpHook.c jgg.c\
+          EnDisk.c
+

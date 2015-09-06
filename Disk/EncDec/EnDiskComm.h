@@ -1,0 +1,15 @@
+#ifndef __ENDISKCOMM_H__
+#define __ENDISKCOMM_H__
+
+#ifndef FILE_DEVICE_UNKNOWN             
+#define FILE_DEVICE_UNKNOWN             0x00000022
+#endif
+//询问卷是否是涉密盘生成的
+#define IOCTL_ENDISK_QUERYVOLUME CTL_CODE(FILE_DEVICE_UNKNOWN, 0x801, METHOD_BUFFERED, FILE_ANY_ACCESS)
+typedef struct _ENDISK_QUERYVOLUME{
+	ULONG    TypeSize;
+	ULONG    DeviceNumber;
+	BOOLEAN  IsEnDisk;
+}ENDISK_QUERYVOLUME,*PENDISK_QUERYVOLUME;
+
+#endif

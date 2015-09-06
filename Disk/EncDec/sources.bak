@@ -1,0 +1,8 @@
+
+TARGETNAME=USBIrpHook
+TARGETTYPE=DRIVER
+
+SOURCES = USBIrpHook.c\
+ifndef x64\
+jgg.c\
+endif

@@ -1,0 +1,658 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DebugWin7X64|Win32">
+      <Configuration>DebugWin7X64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugWin7X64|x64">
+      <Configuration>DebugWin7X64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugWin7X86|Win32">
+      <Configuration>DebugWin7X86</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugWin7X86|x64">
+      <Configuration>DebugWin7X86</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugWxpX86|Win32">
+      <Configuration>DebugWxpX86</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugWxpX86|x64">
+      <Configuration>DebugWxpX86</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugX64|Win32">
+      <Configuration>DebugX64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugX64|x64">
+      <Configuration>DebugX64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugX86|Win32">
+      <Configuration>DebugX86</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugX86|x64">
+      <Configuration>DebugX86</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseWin7X64|Win32">
+      <Configuration>ReleaseWin7X64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseWin7X64|x64">
+      <Configuration>ReleaseWin7X64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseWin7X86|Win32">
+      <Configuration>ReleaseWin7X86</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseWin7X86|x64">
+      <Configuration>ReleaseWin7X86</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseWxpX86|Win32">
+      <Configuration>ReleaseWxpX86</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseWxpX86|x64">
+      <Configuration>ReleaseWxpX86</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseX64|Win32">
+      <Configuration>ReleaseX64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseX64|x64">
+      <Configuration>ReleaseX64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseX86|Win32">
+      <Configuration>ReleaseX86</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseX86|x64">
+      <Configuration>ReleaseX86</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9761A31B-CDFC-45C1-84F4-8EF6190DAC2A}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7X64|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7X86|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWxpX86|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugX64|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugX86|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7X64|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7X86|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWxpX86|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugX64|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugX86|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWin7X64|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWin7X86|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWxpX86|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX64|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX86|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWin7X64|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWin7X86|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWxpX86|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX64|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX86|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7X64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7X86|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugWxpX86|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugX64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugX86|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7X64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7X86|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugWxpX86|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugX64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugX86|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWin7X64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWin7X86|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWxpX86|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX64|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX86|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWin7X64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWin7X86|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWxpX86|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX64|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX86|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objchk_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objchk_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objchk_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_DEBUG;DBG=1;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+    <IncludePath>C:\WinDDK\7600.16385.1\inc\wdf;C:\WinDDK\7600.16385.1\inc\mfc42;C:\WinDDK\7600.16385.1\inc\ddk;C:\WinDDK\7600.16385.1\inc\crt;C:\WinDDK\7600.16385.1\inc\atl71;C:\WinDDK\7600.16385.1\inc\atl30;C:\WinDDK\7600.16385.1\inc\api;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7X64|Win32'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objchk_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objchk_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objchk_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_DEBUG;DBG=1;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7X86|Win32'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objchk_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objchk_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objchk_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_DEBUG;DBG=1;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWxpX86|Win32'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objchk_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objchk_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objchk_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_DEBUG;DBG=1;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugX64|Win32'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objchk_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objchk_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objchk_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_DEBUG;DBG=1;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugX86|Win32'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objchk_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objchk_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objchk_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_DEBUG;DBG=1;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objchk_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objchk_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objchk_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_DEBUG;DBG=1;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7X64|x64'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objchk_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objchk_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objchk_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_DEBUG;DBG=1;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWin7X86|x64'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objchk_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objchk_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objchk_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_DEBUG;DBG=1;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugWxpX86|x64'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objchk_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objchk_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objchk_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_DEBUG;DBG=1;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugX64|x64'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objchk_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objchk_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objchk_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_DEBUG;DBG=1;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugX86|x64'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objchk_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) chk wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objchk_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objchk_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objchk_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_DEBUG;DBG=1;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objfre_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objfre_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objfre_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_NDEBUG;DBG=0;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWin7X64|Win32'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objfre_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objfre_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objfre_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_NDEBUG;DBG=0;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWin7X86|Win32'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objfre_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objfre_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objfre_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_NDEBUG;DBG=0;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWxpX86|Win32'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objfre_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objfre_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objfre_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_NDEBUG;DBG=0;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX64|Win32'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objfre_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objfre_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objfre_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_NDEBUG;DBG=0;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX86|Win32'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objfre_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objfre_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objfre_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_NDEBUG;DBG=0;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objfre_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objfre_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objfre_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_NDEBUG;DBG=0;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWin7X64|x64'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objfre_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objfre_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objfre_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_NDEBUG;DBG=0;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWin7X86|x64'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objfre_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objfre_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objfre_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_NDEBUG;DBG=0;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWxpX86|x64'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objfre_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objfre_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objfre_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_NDEBUG;DBG=0;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX64|x64'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objfre_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objfre_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objfre_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_NDEBUG;DBG=0;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseX86|x64'">
+    <NMakeBuildCommandLine>call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeBuildCommandLine>
+    <NMakeCleanCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86</NMakeCleanCommandLine>
+    <NMakeReBuildCommandLine>rmdir /s /q $(ProjectDir)\objfre_wxp_x86
+call $(WDKPATH)\bin\setenv.bat $(WDKPATH) fre wxp
+cd /d $(ProjectDir)
+build</NMakeReBuildCommandLine>
+    <IntDir>$(ProjectDir)\objfre_wxp_x86</IntDir>
+    <OutDir>$(ProjectDir)\objfre_wxp_x86</OutDir>
+    <NMakeOutput>$(ProjectDir)\objfre_wxp_x86\i386\Disk.sys</NMakeOutput>
+    <NMakePreprocessorDefinitions>WIN32;_CONSOLE;_X86_;_DDK_;_NDEBUG;DBG=0;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(WDKPATH)\inc\ddk;$(WDKPATH)\inc\api;$(WDKPATH)\inc\crt;$(NMakeIncludeSearchPath)</NMakeIncludeSearchPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="$(ProjectDir)\sources" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EnDisk.c" />
+    <ClCompile Include="jgg.c" />
+    <ClCompile Include="USBIrpHook.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EnDisk.h" />
+    <ClInclude Include="EnDiskComm.h" />
+    <ClInclude Include="jgg.h" />
+    <ClInclude Include="USBIrpHook.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
